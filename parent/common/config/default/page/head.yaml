@@ -1,0 +1,21 @@
+meta: {  }
+head_bottom: ''
+atoms:
+  -
+    type: assets
+    title: 'Custom CSS / JS'
+    attributes:
+      enabled: '1'
+      css:
+        - { location: 'genesis-assets://css/animate.css', inline: '', extra: {  }, name: 'Animate CSS' }
+      javascript: {}
+  -
+    type: frameworks
+    title: 'JavaScript Frameworks'
+    attributes:
+      enabled: '1'
+      bootstrap5:
+        enabled: '1'
+      mootools:
+        enabled: '0'
+        more: '0'
